@@ -1,0 +1,63 @@
+.auth{
+    display: block;
+    width: 25%;
+    margin: auto;
+    padding: 20px 10px;
+
+    text-align: center;
+
+    background-color: rgb(102, 0, 255);
+    border-radius: 10px;
+}
+
+.auth input{
+    display: block;
+
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    
+    margin: 10px auto;
+}
+
+.auth_submit{
+    background-color: rgb(255, 238, 2);
+}
+
+.go_to_reg_submit{
+    background-color: orange;
+}
+
+
+
+.reg{
+    display: block;
+    width: 25%;
+    margin: auto;
+    padding: 20px 10px;
+
+    text-align: center;
+
+    background-color: rgb(255, 238, 2);
+    border-radius: 10px;
+}
+
+.reg input{
+    display: block;
+
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    
+    margin: 10px auto;
+}
+
+.reg_submit{
+    background-color: rgb(102, 0, 255);
+}
+
+.go_to_auth_submit{
+    background-color: orange;
+}

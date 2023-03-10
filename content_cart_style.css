@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: Arial;
+}
+
+
+.panel{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 80px;
+
+    justify-content: center;
+}
+
+
+.content input{
+    
+    width: 200px;
+    height: 50px;
+    
+    background-color: #a7b5b5;
+    border-radius: 10px;
+    border: none;
+
+    margin-left: auto;
+}
+
+.panel{
+    width: 100%;
+    height: 50px;
+
+    background-color: rgb(78, 111, 141);
+    
+}
+
+.panel input{
+    border: none;
+    background-color: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+
+    margin-top: 10px;
+}
+
+.content{
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    grid-gap: 100px;
+
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.item{
+    width: 300px;
+    height: 400px;
+
+    background-color: aliceblue;
+    border-radius: 10px;
+
+    font-family: Arial;
+
+    text-align: center;
+}
+
+
+.text{
+    margin-top: 150px;
+}
+
+
+.Buy{
+    width: 130px;
+    height: 30px;
+
+    background-color: gray;
+    border-radius: 10px;
+
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+
+.cartItem{
+
+    height: 100px;
+    width: 90%;
+
+    background-color: aliceblue;
+    border-radius: 10px;
+
+    margin-top: 50px;
+}
+
+
+.plus{
+    text-align: center;
+
+    height: 30px;
+    width: 30px;
+
+    background-color: green;
+    border-radius: 8px;
+}
+
+
+.minus{
+    text-align: center;
+
+    height: 30px;
+    width: 30px;
+
+    background-color: red;
+    border-radius: 8px;
+
+}
+
+
+.total{
+    height: 100px;
+    width: 90%;
+
+    margin-top: 50px;
+    background-color: beige;
+
+    border-radius: 8px;
+}
+
+
+img{
+    height: 100px;
+    width: 100px;
+}

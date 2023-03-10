@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="content_cart_style.css">
+    <link rel="stylesheet" href="auth_reg_style.css">
+</head>
+<body>
+    
+    <form class="auth" action="">
+        <span>Авторизация</span>
+        <input type="text" name="" id="auth_login" placeholder="Логин">
+        <input type="password" name="" id="auth_password" placeholder="Пароль">
+        <input class="auth_submit" type="button" value="Войти в аккаунт">
+        <input class="go_to_reg_submit" type="button" value="Регистрация">
+    </form>
+
+    <form class="reg" action="" style="display: none;">
+        <span>Регистрация</span>
+        <input type="text" id="reg_name" placeholder="Имя">
+        <input type="text" id="reg_login" placeholder="Логин">
+        <input type="password" id="reg_password" placeholder="Пароль">
+        <input class="reg_submit" type="button" value="Создать аккаунт">
+        <input class="go_to_auth_submit" type="button" value="Войти в аккаунт">
+    </form>
+
+
+
+    <div class="panel" style="display: none;">
+        <div class="price_btn"><input type="button" value="sort by price"></div>
+        <div class="cart_btn"><input type="button" value="cart"></div>
+    </div>
+
+    <div class="filtered" style="display: none;">
+            
+    </div>
+   
+
+    <div class="content" style="display: none;"></div>
+
+    <div class="cart" style="display: none;"></div>
+
+
+
+
+    <script src="auth_reg.js"></script>
+    <script src="content_cart.js"></script>
+    
+</body>
+</html>
